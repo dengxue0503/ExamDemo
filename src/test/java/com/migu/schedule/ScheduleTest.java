@@ -24,7 +24,7 @@ public class ScheduleTest
     void assertPlanEqual(int expecteds[][], List<TaskInfo> actual)
     {
         Assert.assertEquals(expecteds.length, actual.size());
-        
+        //
         for (int i = 0; i < actual.size(); i++)
         {
             Assert.assertEquals(expecteds[i][0], actual.get(i).getTaskId());
